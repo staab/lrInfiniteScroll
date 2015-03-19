@@ -1,5 +1,9 @@
 # lrInfiniteScroll
 
+## NOTE
+
+This is a fork of the original. The purpose is to measure against the document's position rather than the given element. When the bottom of the element nears the bottom of the page, the handler is fired.
+
 It is a module for [AngularJS](http://angularjs.org/) which allow you to attach an event handler to the element when this element
 has been scrolled almost to its bottom. In most of the case it will be used for infinite scrolling.
 It is very light (about 45 lines of code) and optimized to reduce the amount of $digest loop.
